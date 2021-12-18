@@ -1,0 +1,35 @@
+{
+  "id": "randomID",
+  "created_date": "2021-11-17 16:19:31",
+  "extension": "0.0.2",
+  "tests": [
+    {
+      "data": "other.lsApp-list.isEmpty",
+      "target": "[object HTMLDivElement]",
+      "parentElement": "[object HTMLDivElement]",
+      "type": "other",
+      "value": ""
+    },
+    {
+      "data": "input.xcl-inp",
+      "target": {},
+      "parentElement": {},
+      "type": "input",
+      "value": "fatihyumsakdemir@gmail.com"
+    },
+    {
+      "data": "button.xcl-button-gr.button-signin.test_loginButton",
+      "target": {},
+      "parentElement": {},
+      "type": "button",
+      "value": ""
+    },
+    {
+      "data": "input.xcl-inp",
+      "target": {},
+      "parentElement": {},
+      "type": "input",
+      "value": "fatih9820"
+    }
+  ]
+}
