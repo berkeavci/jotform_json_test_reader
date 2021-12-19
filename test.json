@@ -1,0 +1,72 @@
+{
+  "id": "randomID",
+  "created_date": "2021-12-19 2:17:57",
+  "extension": "0.0.2",
+  "tests": [
+    {
+      "data": "",
+      "target": "",
+      "parentElement": "",
+      "type": "",
+      "value": "",
+      "url": "",
+      "isFormRequest": ""
+    },
+    {
+      "data": "a#jNewHeader-logo.iBlock",
+      "isFormRequest" : true,
+      "type": "a"
+    },
+    { "data": "a#toMyForms", "isFormRequest" : true, "type": "a" },
+    {
+      "data": "a#navLink.siteNav-link.isActive..active",
+      "isFormRequest" : true,
+      "type": "a"
+    },
+    {
+      "data": "a#navLink.siteNav-link..",
+      "isFormRequest" : true,
+      "type": "a"
+    },
+    {
+      "data": "a#navLink.siteNav-link..",
+      "isFormRequest" : true,
+      "type": "a"
+    },
+    {
+      "data": "button#jNewHeader-buttonNew.appSelectorTrigger-button",
+      "isFormRequest" : true,
+      "type": "button"
+    },
+    {
+      "data": "button#btn.btn-barebone.btn-shadow.btn-add-form-cover",
+      "isFormRequest" : true,
+      "type": "button"
+    },
+    {
+      "data": "button#form-submit-button.submit-button.jf-form-buttons.jsTest-submitField",
+      "isFormRequest" : true,
+      "type": "button"
+    },
+    {
+      "data": "button#btn.btn-barebone.btn-shadow.btn-add-new-page",
+      "isFormRequest" : true,
+      "type": "button"
+    },
+    {
+      "data": "button#formPage-removePage.formPage-removeBranding",
+      "isFormRequest" : true,
+      "type": "button"
+    },
+    {
+      "data": "button#btn.btn-white.u-small.u-call",
+      "isFormRequest" : true,
+      "type": "button"
+    },
+    {
+      "data": "input#togglePreview-input.",
+      "isFormRequest" : true,
+      "type": "input"
+    }
+  ]
+}

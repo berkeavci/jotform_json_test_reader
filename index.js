@@ -1,7 +1,6 @@
 const fs = require("fs");
 const path = require("path");
 
-
 function readJsonData(filename){
   fs.readFile(path.join(__dirname , filename) , (err, data) => {
     if (err) {

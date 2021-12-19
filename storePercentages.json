@@ -1,0 +1,9 @@
+{
+    "isAnchorWanted" : false,
+    "isButtonWanted" : false,
+    "isInputWanted" : false,
+    "percentageOfAnchor" : 0,
+    "percentageOfButton" : 0,
+    "percentageOfInput" : 0
+
+}

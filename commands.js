@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 const program = require('commander');
-const prompt = require('inquirer');
+const prompt = require('inquirer').createPromptModule();
 
 const {
     readJsonData,
@@ -19,6 +19,12 @@ const {
     moveJsonFile
 } = require('./exec_command');
 
+const {
+    storeRequestInfo,
+    storeRequestedPercentages,
+    prepJsonData
+} = require('./jsonhandler');
+
 /*  
     Command Line Application Flow 
         - When test has started, we search for isRequest true, then we start the puppeteer.
@@ -28,10 +34,50 @@ const {
                     
 */
 
-const questions = [
-
+const askRequest = [
+    {
+        type : 'confirm',
+        name : 'isRequested',
+        message : "In json, you've requested DOM content. Dou you want to check existence of selectors in requested DOM?",
+        default : true
+    }
 ]
 
+const validateElements = [
+    {
+        type : 'checkbox',
+        name : 'numberOfSelectorsToCheck',
+        message : 'Please select the element(s) you want to check their selectors?',
+        choices : ['Anchor', 'Button', 'Input'],
+        defult : 'Button'
+    },
+    {
+        type : 'checkbox',
+        name : 'percentageOfSelectors',
+        message : " What percentage of selectors you want to check their existance for ANCHOR",
+        choices : [20, 40, 60, 80, 100],
+        defult : 0, 
+    },
+
+    {
+        type : 'checkbox',
+        name : 'percentageOfSelectors',
+        message : " What percentage of selectors you want to check their existance for BUTTON",
+        choices : [20, 40, 60, 80, 100],
+        defult : 0, 
+    },
+    {
+        type : 'checkbox',
+        name : 'percentageOfSelectors',
+        message : " What percentage of selectors you want to check their existance for INPUT",
+        choices : [20, 40, 60, 80, 100],
+        defult : 0
+    }
+]
+
+const getPercentages = [
+
+]
 
 program
     .version('1.0.0')
@@ -50,9 +96,33 @@ program
     .alias("t")
     .description('Tests the CLI output')
     .action( (source) => { 
-        if (isRequested(source)) {
-            console.info("DOM Content request has found. Do you want to check existence of selectors?")
+        if(isRequested(source)){
+            prompt(askRequest).then(answers => {
+                if(answers.isRequested == true){
+                    var jsonData = prepJsonData();
+                    prompt(validateElements).then(answers => {
+                        for (const key in answers.numberOfSelectorsToCheck){
+                            if(key == 0)
+                            jsonData = storeRequestInfo(answers.numberOfSelectorsToCheck[key], jsonData);
+                            else 
+                            jsonData = storeRequestInfo(answers.numberOfSelectorsToCheck[key], jsonData);
+                        }
+                        console.info("Saves has stored.");
+                        prompt(getPercentages).then(answers => {
+                            for (const key in answers.percentageOfSelectors){
+                                if(jsonData["isAnchorWanted"] == true) jsonData = storeRequestedPercentages(answers.percentageOfSelectors[key], "Anchor", jsonData);
+                                else if(jsonData["isButtonWanted"] == true) jsonData = storeRequestedPercentages(answers.percentageOfSelectors[key], "Button", jsonData);
+                                else jsonData = storeRequestedPercentages(answers.percentageOfSelectors[key], "Input", jsonData);
+                            }
+                            // Check your TODO on Extension CODE !!!!!!!!
+                            console.info(jsonData);
+                        });
+                    });
+                }
+            });
         }
+
+      
         //commandExec(source);
         }
     );
