@@ -1,0 +1,49 @@
+{
+  "id": "randomID",
+  "created_date": "2021-12-19 20:33:34",
+  "extension": "0.0.2",
+  "tests": [
+    {
+      "data": "a.jfHeader-menuListLink.jfHeader-dynamicLink.locale.jfHeader-login-action",
+      "target": "",
+      "parentElement": "[object HTMLLIElement]",
+      "type": "a",
+      "value": "",
+      "url": "no",
+      "isFormRequest": ""
+    },
+    {
+      "data": "input.xcl-inp",
+      "target": {},
+      "parentElement": {},
+      "type": "input",
+      "value": "fatihyumsakdemir@gmail.com",
+      "isFormRequest": "no"
+    },
+    {
+      "data": "input.xcl-inp",
+      "target": {},
+      "parentElement": {},
+      "type": "input",
+      "value": "fatih9820",
+      "isFormRequest": "no"
+    },
+    {
+      "data": "button.xcl-button-gr.button-signin.test_loginButton",
+      "target": {},
+      "parentElement": {},
+      "type": "button",
+      "value": "",
+      "isFormRequest": "no"
+    },
+    {
+      "data": "button.jNewHeader-buttonNew.appSelectorTrigger-button",
+      "target": {},
+      "parentElement": {},
+      "type": "button",
+      "value": "",
+      "isFormRequest": "no"
+    }
+
+  ]
+}

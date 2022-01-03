@@ -1,0 +1,52 @@
+{
+  "id": "randomID",
+  "created_date": "2021-12-21 2:12:4",
+  "extension": "0.0.2",
+  "tests": [
+    {
+      "data": "a.jfHeader-menuListLink.jfHeader-dynamicLink.locale.jfHeader-login-action",
+      "target": "",
+      "parentElement": "[object HTMLLIElement]",
+      "type": "a",
+      "value": "",
+      "url": "no",
+      "isFormRequest": ""
+    },
+    {
+      "data": "input.xcl-inp[type=email]",
+      "target": {},
+      "parentElement": {},
+      "type": "input",
+      "value": "fatihyumsakdemir@gmail.com",
+      "url": "no",
+      "isFormRequest": false
+    },
+    {
+      "data": "input.xcl-inp[type=password]",
+      "target": {},
+      "parentElement": {},
+      "type": "input",
+      "value": "fatih9820",
+      "url": "no",
+      "isFormRequest": false
+    },
+    {
+      "data": "button.xcl-button-gr.button-signin.test_loginButton",
+      "target": {},
+      "parentElement": {},
+      "type": "button",
+      "value": "",
+      "url": "https://www.jotform.com/myforms/",
+      "isFormRequest": false
+    },
+    {
+      "data": "a.sc-bqiRlB.cldOCa.forEdit",
+      "target": {},
+      "parentElement": {},
+      "type": "button",
+      "value": "",
+      "url": "https://www.jotform.com/build/212934753531052",
+      "isFormRequest": false
+    }
+  ]
+}

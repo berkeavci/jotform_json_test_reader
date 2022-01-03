@@ -1,0 +1,123 @@
+{
+    "id": "randomID",
+    "created_date": "2021-12-28 16:26:10",
+    "extension": "0.0.2",
+    "tests": [
+    {
+        "data": "a.jfHeader-menuListLink.jfHeader-dynamicLink.locale.jfHeader-login-action",
+        "target": {},
+        "parentElement": {},
+        "type": "a",
+        "value": "",
+        "url": "no",
+        "isFormRequest": false
+      },
+      {
+        "data": "input.xcl-inp[type=email]",
+        "target": {},
+        "parentElement": {},
+        "type": "input",
+        "value": "berkecan.avcii@gmail.com",
+        "url": "no",
+        "isFormRequest": false
+      },
+      {
+          "data": "input.xcl-inp[type=password]",
+          "target": {},
+          "parentElement": {},
+          "type": "input",
+          "value": "berkecan123455",
+          "url": "no",
+          "isFormRequest": false
+        },
+        {
+          "data": "button.xcl-button-gr.button-signin.test_loginButton",
+          "target": {},
+          "parentElement": {},
+          "type": "button",
+          "value": "",
+          "url" : "https://www.jotform.com/myforms",
+          "isFormRequest": false
+        },  
+      {
+        "data": "urlAddition",
+        "url": "https://www.jotform.com/build/212642038558053",
+        "isFormRequest": false
+      },
+      {
+        "data": "a.jNewHeader-logo.iBlock.jNewHeader-logo-New-Year-Wrapper",
+        "isFormRequest": true,
+        "type": "a"
+      },
+      { "data": "a.toMyForms", "isFormRequest": true, "type": "a" },
+      { "data": "a#siteNav_id_build", "isFormRequest": true, "type": "a" },
+      { "data": "a#siteNav_id_settings", "isFormRequest": true, "type": "a" },
+      { "data": "a#siteNav_id_publish", "isFormRequest": true, "type": "a" },
+      {
+        "data": "button.jNewHeader-buttonNew.appSelectorTrigger-button",
+        "isFormRequest": true,
+        "type": "button"
+      },
+      {
+        "data": "button.btn.btn-barebone.btn-shadow.btn-add-form-cover",
+        "isFormRequest": true,
+        "type": "button"
+      },
+      { "data": "button#input_print_2", "isFormRequest": true, "type": "button" },
+      { "data": "button#input_2", "isFormRequest": true, "type": "button" },
+      { "data": "button#input_reset_2", "isFormRequest": true, "type": "button" },
+      {
+        "data": "button.btn.btn-barebone.btn-shadow.btn-add-new-page",
+        "isFormRequest": true,
+        "type": "button"
+      },
+      {
+        "data": "button.formPage-removePage.formPage-removeBranding",
+        "isFormRequest": true,
+        "type": "button"
+      },
+      {
+        "data": "button#addNewPageButton",
+        "isFormRequest": true,
+        "type": "button"
+      },
+      { "data": "input#previewSwitch", "isFormRequest": true, "type": "input" },
+      {
+        "data": "input#input_4_addr_line1",
+        "isFormRequest": true,
+        "type": "input"
+      },
+      {
+        "data": "input#input_4_addr_line2",
+        "isFormRequest": true,
+        "type": "input"
+      },
+      { "data": "input#input_4_city", "isFormRequest": true, "type": "input" },
+      { "data": "input#input_4_state", "isFormRequest": true, "type": "input" },
+      { "data": "input#input_4_postal", "isFormRequest": true, "type": "input" },
+      { "data": "input#input_11", "isFormRequest": true, "type": "input" },
+      {
+        "data": "input#widget_settings_11",
+        "isFormRequest": true,
+        "type": "input"
+      },
+      { "data": "input#input_14_0", "isFormRequest": true, "type": "input" },
+      { "data": "input#input_14_1", "isFormRequest": true, "type": "input" },
+      { "data": "input#input_14_2", "isFormRequest": true, "type": "input" },
+      { "data": "input#input_14_3", "isFormRequest": true, "type": "input" },
+      { "data": "input#input_14_4", "isFormRequest": true, "type": "input" },
+      { "data": "input#other_14", "isFormRequest": true, "type": "input" },
+      { "data": "input#input_14", "isFormRequest": true, "type": "input" },
+      { "data": "input#first_3", "isFormRequest": true, "type": "input" },
+      { "data": "input#last_3", "isFormRequest": true, "type": "input" },
+      { "data": "input#input_15", "isFormRequest": true, "type": "input" },
+      {
+        "data": "input#input_15_confirm",
+        "isFormRequest": true,
+        "type": "input"
+      },
+      { "data": "input#input_19_full", "isFormRequest": true, "type": "input" },
+      { "data": "input#input_27_0", "isFormRequest": true, "type": "input" }
+    ]
+  }
+  

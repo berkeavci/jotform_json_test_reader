@@ -1,0 +1,100 @@
+{
+  "id": "randomID",
+  "created_date": "2021-12-26 1:6:52",
+  "extension": "0.0.2",
+  "tests": [
+    {
+      "data": "",
+      "target": "",
+      "parentElement": "",
+      "type": "",
+      "value": "",
+      "url": "",
+      "isFormRequest": ""
+    },
+    { "data": "", "url": "https://www.jotform.com/myforms/" },
+    {
+      "data": "div.moreMenuLink.isVisible",
+      "target": {},
+      "parentElement": {},
+      "type": "div",
+      "value": "",
+      "url": {},
+      "isFormRequest": false
+    },
+    {
+      "data": "div.moreMenuLink",
+      "target": {},
+      "parentElement": {},
+      "type": "div",
+      "value": "",
+      "url": {},
+      "isFormRequest": false
+    },
+    {
+      "data": "input.sc-dlVxhl.boPqLY[type=checkbox]",
+      "target": {},
+      "parentElement": {},
+      "type": "input",
+      "url": {},
+      "isFormRequest": false
+    },
+    { "data": "urlAddition", "url": "https://www.jotform.com/" },
+    {
+      "data": "a.jfHeader-menuListLink.jfHeader-dynamicLink.locale.jfHeader-login-action",
+      "target": {},
+      "parentElement": {},
+      "type": "a",
+      "value": "",
+      "url": {},
+      "isFormRequest": false
+    },
+    {
+      "data": "input.xcl-inp[type=email]",
+      "target": {},
+      "parentElement": {},
+      "type": "input",
+      "value": "fatihyumsakdemir@gmail.com",
+      "url": {},
+      "isFormRequest": false
+    },
+    {
+      "data": "input.xcl-inp[type=password]",
+      "target": {},
+      "parentElement": {},
+      "type": "input",
+      "value": "fatih9820",
+      "url": {},
+      "isFormRequest": false
+    },
+    {
+      "data": "button.xcl-button-gr.button-signin.test_loginButton",
+      "target": {},
+      "parentElement": {},
+      "type": "button",
+      "value": "",
+      "url": {},
+      "isFormRequest": false
+    },
+    {
+      "data": "urlAddition",
+      "url": "https://www.jotform.com/build/212934753531052"
+    },
+    { "data": "", "isFormRequest": true, "type": "a" },
+    { "data": "", "isFormRequest": true, "type": "a" },
+    { "data": "a#siteNav_id_build", "isFormRequest": true, "type": "a" },
+    { "data": "a#siteNav_id_settings", "isFormRequest": true, "type": "a" },
+    { "data": "a#siteNav_id_publish", "isFormRequest": true, "type": "a" },
+    { "data": "", "isFormRequest": true, "type": "button" },
+    { "data": "", "isFormRequest": true, "type": "button" },
+    { "data": "button#input_2", "isFormRequest": true, "type": "button" },
+    { "data": "", "isFormRequest": true, "type": "button" },
+    { "data": "", "isFormRequest": true, "type": "button" },
+    {
+      "data": "button#addNewPageButton",
+      "isFormRequest": true,
+      "type": "button"
+    },
+    { "data": "input#previewSwitch", "isFormRequest": true, "type": "input" }
+  ]
+}

@@ -1,9 +1,18 @@
 {
-    "isAnchorWanted" : false,
-    "isButtonWanted" : false,
-    "isInputWanted" : false,
-    "percentageOfAnchor" : 0,
-    "percentageOfButton" : 0,
-    "percentageOfInput" : 0
-
+  "isUserWanted": false,
+  "isAnchorWanted": false,
+  "isButtonWanted": false,
+  "isInputWanted": false,
+  "percentageOfAnchor": 0,
+  "percentageOfButton": 0,
+  "percentageOfInput": 0,
+  "numberOfAnchor": 0,
+  "numberOfButton": 0,
+  "numberOfInput": 0,
+  "wantedNumberOfAnchor": 0,
+  "wantedNumberOfButton": 0,
+  "wantedNumberOfInput": 0,
+  "choosenIndex": [
+    
+  ]
 }

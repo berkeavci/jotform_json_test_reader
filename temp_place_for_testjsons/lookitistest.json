@@ -1,0 +1,118 @@
+{
+  "id": "randomID",
+  "created_date": "2021-12-26 18:12:33",
+  "extension": "0.0.2",
+  "tests": [
+    {
+      "data": "a.jfHeader-menuListLink.jfHeader-dynamicLink.locale.jfHeader-login-action",
+      "target": {},
+      "parentElement": {},
+      "type": "a",
+      "value": "",
+      "url": "no",
+      "isFormRequest": false
+    },
+    {
+      "data": "input.xcl-inp[type=email]",
+      "target": {},
+      "parentElement": {},
+      "type": "input",
+      "value": "fatihyumsakdemir@gmail.com",
+      "url": "no",
+      "isFormRequest": false
+    },
+    {
+      "data": "input.xcl-inp[type=password]",
+      "target": {},
+      "parentElement": {},
+      "type": "input",
+      "value": "fatih9820",
+      "url": "no",
+      "isFormRequest": false
+    },
+    {
+      "data": "button.xcl-button-gr.button-signin.test_loginButton",
+      "target": {},
+      "parentElement": {},
+      "type": "button",
+      "value": "",
+      "url": "https://www.jotform.com/myforms/",
+      "isFormRequest": false
+    },
+    {
+      "data": "button.sc-lbhJGD.eoQTGC.createForm.forSidebar",
+      "target": {},
+      "parentElement": {},
+      "type": "button",
+      "value": "",
+      "url": "no",
+      "isFormRequest": false
+    },
+    {
+      "data": "div.jfWizard-list-item-icon-wrapper",
+      "target": {},
+      "parentElement": {},
+      "type": "div",
+      "value": "",
+      "url": "no",
+      "isFormRequest": false
+    },
+    {
+      "data": "div.jfWizard-list-item-icon-wrapper",
+      "target": {},
+      "parentElement": {},
+      "type": "div",
+      "value": "",
+      "url": "no",
+      "isFormRequest": false
+    },
+    {
+      "data": "a.jNewHeader-logo.iBlock.jNewHeader-logo-New-Year-Wrapper",
+      "isFormRequest": true,
+      "type": "a"
+    },
+    { "data": "a.toMyForms", "isFormRequest": true, "type": "a" },
+    {
+      "data": "a.navLink.siteNav-link.isActive..active",
+      "isFormRequest": true,
+      "type": "a"
+    },
+    { "data": "a.navLink.asdas", "isFormRequest": true, "type": "a" },
+    { "data": "a.navLink.siteNav-link..", "isFormRequest": true, "type": "a" },
+    {
+      "data": "button.jNewHeader-buttonNew.appSelectorTrigger-button",
+      "isFormRequest": true,
+      "type": "button"
+    },
+    {
+      "data": "button.btn.btn-barebone.btn-shadow.btn-add-form-cover",
+      "isFormRequest": true,
+      "type": "button"
+    },
+    {
+      "data": "button.form-submit-button.submit-button.jf-form-buttons.jsTest-submitField",
+      "isFormRequest": true,
+      "type": "button"
+    },
+    {
+      "data": "button.btn.btn-barebone.btn-shadow.btn-add-new-page",
+      "isFormRequest": true,
+      "type": "button"
+    },
+    {
+      "data": "button.formPage-removePage.formPage-removeBranding",
+      "isFormRequest": true,
+      "type": "button"
+    },
+    {
+      "data": "button.btn.btn-white.u-small.u-call",
+      "isFormRequest": true,
+      "type": "button"
+    },
+    {
+      "data": "input.togglePreview-input.[type=checkbox]",
+      "isFormRequest": true,
+      "type": "input"
+    }
+  ]
+}

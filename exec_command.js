@@ -1,6 +1,5 @@
 function commandExec(source){
-    var result = require('child_process').execSync(`TEST_ENV_VAR=${source} npm run test --prefix ${__dirname}`, {stdio: "inherit"}); 
-    console.info(result);
+        require('child_process').execSync(`TEST_ENV_VAR=${source} npm run test --prefix ${__dirname}`, {stdio: "inherit"}); 
 }
 
 function moveJsonFile(source){
